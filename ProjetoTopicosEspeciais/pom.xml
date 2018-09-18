@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fvs.edu.br.topicos</groupId>
-	<artifactId>ProjetoTopicosEspeciais2</artifactId>
+	<artifactId>ProjetoTopicosEspeciais</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ProjetoTopicosEspeciais2</name>
-	<description>Projeto desenvolvido na disciplina topicos especiais fvs</description>
+	<name>ProjetoTopicosEspeciais</name>
+	<description>Projet desenvolvido na disciplina de topicos especias fvs</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -36,7 +36,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -52,9 +51,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+		
+
 
 
 	</dependencies>
+
 
 	<build>
 		<plugins>
